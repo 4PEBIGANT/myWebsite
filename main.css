@@ -1,0 +1,183 @@
+.mainHeader {
+    background-color: salmon;
+    border: solid;
+    text-align: center;
+}
+
+
+
+nav {
+    background-color: silver;
+    border: solid 3px;
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+
+}
+
+.navBar {
+    display: flex;
+    justify-content: center; 
+}
+
+wc {
+    font-size: 80px;
+}
+
+.wctb {
+    display: flex;
+    justify-content: center;
+    
+}
+
+body {
+    background-color: cadetblue;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+ h3 {
+    color:rgb(5, 0, 0) ;
+    font-size: 25px;
+}
+
+h1 {font-size:  40px;
+}
+
+main {
+    font-size: 30px;
+    background-color: salmon;
+    width: 50%;  
+    display: flex;
+    text-align: center;
+    border: solid;
+}
+
+.mainText { 
+    display: flex;
+    justify-content: center;
+    background-position: center;
+
+}
+
+#moreInfo{
+    background-color: salmon;
+    font-size: 30px;
+    border: solid;
+    display: flex;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+  }
+
+.places {
+    width: 100%;
+}
+
+.attractions{
+    background-color: salmon;
+    width: fit-content;
+    border: solid;
+    font-size: 20px;
+   
+    
+}
+ 
+body {
+    padding: 0;
+    margin: 0;
+    background-color: cadetblue;
+}
+
+h4 {
+    margin-top: 50px;
+    margin-left: 510px;
+    font-size: 60px;
+    font-family: 'Karla', sans-serif;
+    font-weight: lighter;
+}
+
+.sliderFrame {
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+
+/* ----------------SLIDE ANIMATION------------- */
+
+@keyframes slideAnimation {
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left: 1200px;}
+    30% {left:1200px;}
+    40% {left:2400px;}
+    50% {left:2400px;}
+    60% {left:1200px;}
+    70% {left:1200px;}
+    80% {left:0px;}
+    90% {left:0px;}
+    100% {left:0px;}
+}
+
+.slideImages {
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    animation-name: slideAnimation;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+.imgContainer {
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+
+
+
+
+.video {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+    
+    
+
+.ptsInfo {
+    display: flex;
+    border: solid;
+    background-color: salmon;
+    width: 50%;
+    font-size: 25px;
+    
+}
+
+
+.txt {
+    font-size: 30px;
+}
+
+
+.imgPts {
+    width: 50%;
+}
